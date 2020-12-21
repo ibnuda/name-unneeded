@@ -801,10 +801,6 @@ $PEXTMAX
  30
 0
   9
-$GRIDMODE
- 70
-    1
-  9
 $SNAPSTYLE
  70
     0
@@ -1115,9 +1111,9 @@ AcDbViewportTableRecord
  21
 1
  12
-37.90810672649615
+13.17136376570862
  22
--1.955009277718669
+-12.06992568077132
  13
 0
  23
@@ -1143,9 +1139,9 @@ AcDbViewportTableRecord
  37
 0
  40
-15.4175528405456
+5.20888427668268
  41
-2.055670103092783
+2.1784140969163
  42
 50
  43
@@ -2411,7 +2407,7 @@ Standard
  70
     0
  40
-2.5
+1
  41
 2.5
  42
@@ -2435,7 +2431,7 @@ Standard
 141
 0.09
 142
-0
+2.5
 143
 25.4
 144
@@ -2463,7 +2459,7 @@ Standard
  77
     0
  78
-    8
+    1
  79
     0
 170
@@ -2501,7 +2497,7 @@ Standard
 277
     2
 278
-   44
+    0
 279
     0
 280
@@ -2523,7 +2519,7 @@ Standard
 289
     3
 340
-STANDARD
+standard
 341
 
 371
@@ -10895,6 +10891,54 @@ CONTINUOUS
 100
 AcDbLine
  10
+64.9141
+ 20
+-11.3162
+ 11
+61.0405
+ 21
+-11.7185
+  0
+LINE
+  5
+1A5
+100
+AcDbEntity
+  8
+BLACK
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+61.0405
+ 20
+-11.7185
+ 11
+57.1862
+ 21
+-12.2761
+  0
+LINE
+  5
+1A6
+100
+AcDbEntity
+  8
+BLACK
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
 81.4789
  20
 -95.99250000000001
@@ -10905,7 +10949,7 @@ AcDbLine
   0
 LINE
   5
-1A5
+1A7
 100
 AcDbEntity
   8
@@ -10929,7 +10973,7 @@ AcDbLine
   0
 LINE
   5
-1A6
+1A8
 100
 AcDbEntity
   8
@@ -10953,7 +10997,7 @@ AcDbLine
   0
 LINE
   5
-1A7
+1A9
 100
 AcDbEntity
   8
@@ -10977,7 +11021,7 @@ AcDbLine
   0
 LINE
   5
-1A8
+1AA
 100
 AcDbEntity
   8
@@ -11001,7 +11045,7 @@ AcDbLine
   0
 LINE
   5
-1A9
+1AB
 100
 AcDbEntity
   8
@@ -11025,7 +11069,7 @@ AcDbLine
   0
 LINE
   5
-1AA
+1AC
 100
 AcDbEntity
   8
@@ -11049,7 +11093,7 @@ AcDbLine
   0
 LINE
   5
-1AB
+1AD
 100
 AcDbEntity
   8
@@ -11073,54 +11117,6 @@ AcDbLine
   0
 LINE
   5
-1AC
-100
-AcDbEntity
-  8
-BLACK
-  6
-CONTINUOUS
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-106.945
- 20
--108.968
- 11
-106.945
- 21
--108.968
-  0
-LINE
-  5
-1AD
-100
-AcDbEntity
-  8
-BLACK
-  6
-CONTINUOUS
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-106.945
- 20
--108.968
- 11
-106.945
- 21
--108.968
-  0
-LINE
-  5
 1AE
 100
 AcDbEntity
@@ -11139,13 +11135,61 @@ AcDbLine
  20
 -108.968
  11
+106.945
+ 21
+-108.968
+  0
+LINE
+  5
+1AF
+100
+AcDbEntity
+  8
+BLACK
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+106.945
+ 20
+-108.968
+ 11
+106.945
+ 21
+-108.968
+  0
+LINE
+  5
+1B0
+100
+AcDbEntity
+  8
+BLACK
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+106.945
+ 20
+-108.968
+ 11
 106.946
  21
 -108.969
   0
 LINE
   5
-1AF
+1B1
 100
 AcDbEntity
   8
@@ -11169,7 +11213,7 @@ AcDbLine
   0
 LINE
   5
-1B0
+1B2
 100
 AcDbEntity
   8
@@ -11193,7 +11237,7 @@ AcDbLine
   0
 LINE
   5
-1B1
+1B3
 100
 AcDbEntity
   8
@@ -11217,7 +11261,7 @@ AcDbLine
   0
 LINE
   5
-1B2
+1B4
 100
 AcDbEntity
   8
@@ -11241,7 +11285,7 @@ AcDbLine
   0
 LINE
   5
-1B3
+1B5
 100
 AcDbEntity
   8
@@ -11265,7 +11309,7 @@ AcDbLine
   0
 LINE
   5
-1B4
+1B6
 100
 AcDbEntity
   8
@@ -11289,7 +11333,7 @@ AcDbLine
   0
 LINE
   5
-1B5
+1B7
 100
 AcDbEntity
   8
@@ -11313,7 +11357,7 @@ AcDbLine
   0
 LINE
   5
-1B6
+1B8
 100
 AcDbEntity
   8
@@ -11337,7 +11381,7 @@ AcDbLine
   0
 LINE
   5
-1B7
+1B9
 100
 AcDbEntity
   8
@@ -11361,7 +11405,7 @@ AcDbLine
   0
 LINE
   5
-1B8
+1BA
 100
 AcDbEntity
   8
@@ -11385,55 +11429,55 @@ AcDbLine
   0
 LINE
   5
-1B9
-100
-AcDbEntity
-  8
-BLACK
-  6
-CONTINUOUS
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-122.512
- 20
--132.939
- 11
-122.512
- 21
--132.939
-  0
-LINE
-  5
-1BA
-100
-AcDbEntity
-  8
-BLACK
-  6
-CONTINUOUS
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-122.512
- 20
--132.939
- 11
-122.512
- 21
--132.939
-  0
-LINE
-  5
 1BB
+100
+AcDbEntity
+  8
+BLACK
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+122.512
+ 20
+-132.939
+ 11
+122.512
+ 21
+-132.939
+  0
+LINE
+  5
+1BC
+100
+AcDbEntity
+  8
+BLACK
+  6
+CONTINUOUS
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+122.512
+ 20
+-132.939
+ 11
+122.512
+ 21
+-132.939
+  0
+LINE
+  5
+1BD
 100
 AcDbEntity
   8
