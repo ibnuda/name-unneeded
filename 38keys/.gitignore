@@ -1,0 +1,7 @@
+.DS_Store
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+**/gerber/*
+**/gerber-bottom/*
+**/gerber-plate/*
