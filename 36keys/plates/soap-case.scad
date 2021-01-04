@@ -117,5 +117,5 @@ lid()
     }
 }
 
-bowl();
-translate([150, 0, -7]) lid();
+// bowl();
+// translate([150, 0, -7]) lid();
