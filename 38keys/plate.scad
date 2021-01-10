@@ -8,9 +8,11 @@ module
 whitespace()
 {
     polygon(points = [
-        [ 116, -0 ],
-        [ 116, -87 ],
-        [ 146, -119 ],
+        [ 122, -0 ],
+        [ 122, -55 ],
+        [ 127, -55 ],
+        [ 127, -72 ],
+        [ 146, -72 ],
         [ 146, -0 ],
     ]);
 }
@@ -72,5 +74,6 @@ bottom()
     }
 }
 
-plate();
-translate([100, 0, 0]) bottom();
+// plate();
+// translate([100, 0, 0]) bottom();
+bottom();
