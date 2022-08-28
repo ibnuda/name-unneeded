@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "name-unneeded")(type "Legacy")(uri "${KIPRJMOD}/../libs/symbols/name-unneeded.lib")(options "")(descr ""))
+  (lib (name "name-unneeded-rescue")(type "Legacy")(uri "${KIPRJMOD}/name-unneeded-rescue.lib")(options "")(descr ""))
+)
